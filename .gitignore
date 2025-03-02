@@ -1,0 +1,41 @@
+# Generated files
+/target/
+**/*.rs.bk
+
+# Debug and IDE files
+/.idea/
+/.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Log files and databases
+*.log
+*.db
+*.sqlite
+
+# Build output
+/dist/
+*.profraw
+/build/
+
+# Documentation generation
+/doc/
+/book/
+
+# Custom for this project
+memory_debug.log
+tui_debug.log
